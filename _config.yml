@@ -62,6 +62,14 @@ conference:
   speakers:
     show_firstname: true
 
+  talks:
+    # Talk categories
+    main_categories:
+      - name: Proceedings talks
+        color: info
+      - name: Highlight talks
+        color: success
+
   location:
     url: '/location'
     map: true
