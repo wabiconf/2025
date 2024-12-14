@@ -78,3 +78,22 @@ conference:
     url: '/program'
     time_steps: 15
     show_alltimes: true
+
+  # Navigation bar
+  navigation:
+    logo:
+      name: Wonderful Algorithms in Bioinformatics
+      # img: ''
+      url: 'https://wabiconf.github.io/2025'
+    breakpoint: md
+    links:
+      - name: Program Committee
+        relative_url: /program_committee/
+      - name: Program
+        relative_url: /program/
+      - name: Talks
+        relative_url: /talks/
+      - name: Speakers
+        relative_url: /speakers/
+      - name: Location
+        relative_url: /location/
