@@ -3,7 +3,7 @@
     {%- if enable_map %}
     "map": {
         "map_provider": "{{ site.conference.location.map.map_provider | default: 'OpenStreetMap.Mapnik' }}",
-        "home_coord": [{{ site.conference.location.map.home_coord | default: '47.3744489, 47.3744489' }}],
+        "home_coord": [{{ site.conference.location.map.home_coord | default: '38.9891606978835, -76.93635268645764' }}],
         "default_zoom": {{ site.conference.location.map.default_zoom | default: 17 }}
     },
     {%- endif %}

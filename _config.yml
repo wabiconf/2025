@@ -1,7 +1,7 @@
 title: WABI 2025
 preposition: ''
 description: >-
-  Wonderful Algorithms in Bioinformatics Conference
+  Wonderful Algorithms in Bioinformatics Conference (WABI)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wabiconf.github.io/2025" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -56,6 +56,10 @@ conference:
   lang: en
   show_errors: True
 
+  main:
+    logo:
+      img: banner.jpg
+
   link_preview:
     disable: false
 
@@ -82,7 +86,7 @@ conference:
   # Navigation bar
   navigation:
     logo:
-      name: Wonderful Algorithms in Bioinformatics
+      name: WABI 2025
       # img: ''
       url: 'https://wabiconf.github.io/2025'
     breakpoint: md
