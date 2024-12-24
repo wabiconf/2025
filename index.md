@@ -11,7 +11,9 @@ WABI is an international Conference covering research in algorithmic work in bio
 ## Dates
 
 * Paper submission deadline: 
-* Author notifications:
+  * Abstract deadline: May 9, 2025 (AoE)
+  * Full paper deadline: May 12, 2025 (AoE)
+* Author notifications: June 16, 2025
 * Camera ready versions of accepted papers due:
 * Conference: August 20 --- August 22
 
