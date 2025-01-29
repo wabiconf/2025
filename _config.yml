@@ -93,11 +93,11 @@ conference:
     links:
       - name: Program Committee
         relative_url: /program_committee/
-      - name: Program
-        relative_url: /program/
-      - name: Talks
-        relative_url: /talks/
-      - name: Speakers
-        relative_url: /speakers/
+      #- name: Program
+      #  relative_url: /program/
+      #- name: Talks
+      #  relative_url: /talks/
+      #- name: Speakers
+      #  relative_url: /speakers/
       - name: Location
         relative_url: /location/
