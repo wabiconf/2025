@@ -17,13 +17,14 @@ jobs:
     steps:
     - name: Checkout code
       id: checkout_code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Set up Ruby 2.6
       id: setup_ruby
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         version: 2.6.x
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
     - name: Publish to RubyGems
       id: publish_rubygems
