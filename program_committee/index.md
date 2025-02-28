@@ -16,7 +16,7 @@ layout: default
 
 ## WABI Steering Committee
 
-* [Vincent Moulton](http://www2.cmp.uea.ac.uk/~vlm/)
+* [Lenore Cowen](https://www.cs.tufts.edu/~cowen)
 * [Nadia Pisanti](https://pages.di.unipi.it/pisanti/)
 * [Jens Stoye](http://www.techfak.uni-bielefeld.de/~stoye/)
 * [Mona Singh](https://www.cs.princeton.edu/~mona/)
