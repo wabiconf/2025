@@ -13,6 +13,25 @@ layout: default
 
 ## Program Committee
 
+* Daniel	Doerr	
+* Tatsuya	Akutsu	
+* Wing-Kai	Hon	
+* Mingfu	Shao	
+* Manuel	Lafond
+* Sharma	Thankachan	
+* Lenore	Cowen	
+* Wing-Kin	Sung	
+* Solon	Pissis	
+* Benjamin	Langmead	
+* Rayan	Chikhi	
+* Nicola	Prezza	
+* Yuri	Pirola	
+* Lorraine	Ayad	
+* Jasmijn	Baaijens	
+* Jarno	Alanko	
+* Meirav	Zehavi	
+* Simone	Zaccaria	
+* Jie	Zheng	
 
 ## WABI Steering Committee
 
