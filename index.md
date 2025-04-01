@@ -12,7 +12,7 @@ WABI is an international Conference covering research in algorithmic work in bio
 
 You can register for WABI 2025 [using this link](https://go.umd.edu/wabi25payment).
 
-## Call for Papers
+## <u>Call for Papers</u>
 
 ### WABI 2025 Call for Papers
 25th WABI Conference on Algorithms in Bioinformatics   
@@ -33,13 +33,13 @@ WABI is an international conference covering research in algorithmic work in bio
 
 ### PAPER SUBMISSION
 
-Submissions must be formatted in LaTeX using the LIPIcs style and must not exceed 15 pages excluding the front page (authors, affiliation, keywords, abstract, ...), references and a brief appendix (of up to 5 pages). For details please see the information for authors \<[https://submission.dagstuhl.de/series/details/LIPIcs\#author](https://submission.dagstuhl.de/series/details/LIPIcs#author)\>.
+Submissions must be formatted in LaTeX using the LIPIcs style and must not exceed 15 pages excluding the front page (authors, affiliation, keywords, abstract, ...), references and a brief appendix (of up to 5 pages). For details please see the information for authors [https://submission.dagstuhl.de/series/details/LIPIcs\#author](https://submission.dagstuhl.de/series/details/LIPIcs#author).
 
 Each paper must contain a succinct statement of the issues and of their motivation, a summary of the main results, and a brief explanation of their significance, all accessible to non-specialist readers. All submissions must be made online, through the EasyChair submission system, at:
 
 [https://easychair.org/conferences/?conf=wabi2025](https://easychair.org/conferences/?conf=wabi2025)
 
-For scientific information, please contact one of the WABI program committee co-chairs, Broňa Brejová ([brejova@fmph.uniba.sk](mailto:brejova@fmph.uniba.sk)) or Rob Patro ([rob@cs.umd.edu](mailto:rob@cs.umd.edu)). For organizational information, please refer to the WABI 2025 website \<[https://wabiconf.github.io/2025/](https://wabiconf.github.io/2025/)\> or contact the local chair, Mihai Pop ([mpop@umd.edu](mailto:mpop@umd.edu)).
+For scientific information, please contact one of the WABI program committee co-chairs, Broňa Brejová ([brejova@fmph.uniba.sk](mailto:brejova@fmph.uniba.sk)) or Rob Patro ([rob@cs.umd.edu](mailto:rob@cs.umd.edu)). For additional organizational information, please refer to this website, or contact the local chair, Mihai Pop ([mpop@umd.edu](mailto:mpop@umd.edu)).
 
 An abstract of the paper must be received in EasyChair by May 09, 2025 (time zone of your choice) in order for your submission to be considered. Submission of full versions for already submitted papers will be possible until May 12, 2025 (time zone of your choice). Simultaneous submission to another conference with published proceedings is not permitted, but simultaneous submission to a journal is allowed, provided that the authors notify the program chairs; if published in a journal, such a contribution will be published as a short abstract in the WABI proceedings. Depositing in [arxiv.org](http://arxiv.org) or [biorxiv.org](http://biorxiv.org) is encouraged.
 
