@@ -32,6 +32,7 @@ layout: default
 * Meirav	Zehavi	
 * Simone	Zaccaria	
 * Jie	Zheng	
+(more to come)
 
 ## WABI Steering Committee
 
