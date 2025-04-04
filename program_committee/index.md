@@ -13,35 +13,6 @@ layout: default
 
 ## Program Committee
 
-* Daniel	Doerr	
-* Tatsuya	Akutsu	
-* Wing-Kai	Hon	
-* Mingfu	Shao	
-* Manuel	Lafond
-* Sharma	Thankachan	
-* Lenore	Cowen	
-* Wing-Kin	Sung	
-* Solon	Pissis	
-* Benjamin	Langmead	
-* Rayan	Chikhi	
-* Nicola	Prezza	
-* Yuri	Pirola	
-* Lorraine	Ayad	
-* Jasmijn	Baaijens	
-* Jarno	Alanko	
-* Meirav	Zehavi	
-* Simone	Zaccaria	
-* Jie	Zheng	
-(more to come)
-
-## WABI Steering Committee
-
-* [Lenore Cowen](https://www.cs.tufts.edu/~cowen)
-* [Nadia Pisanti](https://pages.di.unipi.it/pisanti/)
-* [Jens Stoye](http://www.techfak.uni-bielefeld.de/~stoye/)
-* [Mona Singh](https://www.cs.princeton.edu/~mona/)
-
-
 * Solon	Pissis
 * Wing-Kin	Sung
 * Manuel	Cáceres
@@ -68,3 +39,15 @@ layout: default
 * Anna	Gambin
 * Panagiotis	Charalampopoulos
 * Hosna	Jabbari
+
+(more to come)
+
+## WABI Steering Committee
+
+* [Lenore Cowen](https://www.cs.tufts.edu/~cowen)
+* [Nadia Pisanti](https://pages.di.unipi.it/pisanti/)
+* [Jens Stoye](http://www.techfak.uni-bielefeld.de/~stoye/)
+* [Mona Singh](https://www.cs.princeton.edu/~mona/)
+
+
+
