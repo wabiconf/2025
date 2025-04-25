@@ -12,6 +12,10 @@ WABI is an international Conference covering research in algorithmic work in bio
 
 You can register for WABI 2025 [using this link](https://go.umd.edu/wabi25payment).
 
+## Paper submission
+
+You can submit your work to WABI [here](https://easychair.org/conferences/?conf=wabi2025).
+
 ## <u>Call for Papers</u>
 
 ### WABI 2025 Call for Papers
