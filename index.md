@@ -33,7 +33,10 @@ WABI is an international conference covering research in algorithmic work in bio
   * Full paper deadline: May 12, 2025 (AoE)
 * Author notifications: June 16, 2025
 * Camera ready versions of accepted papers due: June 22, 2025
+* Poster submission deadline: July 20, 2025
+* Early registration deadline: July 20, 2025
 * Conference: August 20 --- August 22
+
 
 ### PAPER SUBMISSION
 
@@ -47,7 +50,7 @@ For scientific information, please contact one of the WABI program committee co-
 
 An abstract of the paper must be received in EasyChair by May 09, 2025 (time zone of your choice) in order for your submission to be considered. Submission of full versions for already submitted papers will be possible until May 12, 2025 (time zone of your choice). Simultaneous submission to another conference with published proceedings is not permitted, but simultaneous submission to a journal is allowed, provided that the authors notify the program chairs; if published in a journal, such a contribution will be published as a short abstract in the WABI proceedings. Depositing in [arxiv.org](http://arxiv.org) or [biorxiv.org](http://biorxiv.org) is encouraged.
 
-By submitting a paper, the authors acknowledge that, in case of acceptance at least one of the authors must register at WABI 2025, attend the conference, and present the paper.
+By submitting a paper, the authors acknowledge that, in case of acceptance at least one of the authors must register for WABI 2025 and present the paper.
 
 Accepted papers will be published in the WABI proceedings in the [LIPIcs Leibniz International Proceedings in Informatics](https://www.dagstuhl.de/publikationen/lipics/).
 
