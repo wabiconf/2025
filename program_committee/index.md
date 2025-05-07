@@ -20,6 +20,8 @@ layout: default
 * Sharma Thankachan
 * Wing-Kin Sung
 * Mingfu Shao
+* Leena Salmela
+* Sven Rahmann
 * Nicola Prezza
 * Solon Pissis
 * Yuri Pirola
@@ -28,20 +30,21 @@ layout: default
 * Gregory Kucherov
 * Hosna Jabbari
 * Wing-Kai Hon
+* Momoko Hayamizu
+* Ragnar Groot Koerkamp
 * Anna Gambin
 * Jonas Ellert
 * Mohammed El-Kebir
 * Daniel Doerr
 * Manuel Cáceres
 * Lenore Cowen
+* Yao-Ban Chan
 * Rayan Chikhi
 * Panagiotis Charalampopoulos
 * Jasmijn Baaijens
 * Lorraine Ayad
 * Jarno Alanko
 * Tatsuya Akutsu
-
-(more to come)
 
 ## WABI Steering Committee
 
