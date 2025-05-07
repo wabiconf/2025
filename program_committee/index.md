@@ -27,6 +27,7 @@ layout: default
 * Yuri Pirola
 * Benjamin Langmead
 * Manuel Lafond
+* David Koslicki
 * Gregory Kucherov
 * Hosna Jabbari
 * Wing-Kai Hon
