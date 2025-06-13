@@ -71,8 +71,9 @@ conference:
     main_categories:
       - name: Proceedings talks
         color: info
-      - name: Highlight talks
+      - name: Keynote talks
         color: success
+
 
   location:
     url: '/location'
