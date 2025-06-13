@@ -1,10 +1,10 @@
 ---
-name: Condimentum Vitae Sapien Pellentesque
+name: TBD
 speakers:
-  - Tolga Philip
-  - Alex Rosales
+  - Christina Boucher
 categories:
-  - Cat A
+  - Keynote
   - Talk
-hide: true
 ---
+
+TBD
