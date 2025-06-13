@@ -95,9 +95,9 @@ conference:
         relative_url: /program_committee/
       #- name: Program
       #  relative_url: /program/
-      #- name: Talks
-      #  relative_url: /talks/
-      - name: Speakers
-        relative_url: /speakers/
+      - name: Talks
+        relative_url: /talks/
+      #- name: Speakers
+      #  relative_url: /speakers/
       - name: Location
         relative_url: /location/
