@@ -69,11 +69,10 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Proceedings 
-        color: info
       - name: Keynote 
         color: success
-
+      - name: Proceedings 
+        color: info
 
   location:
     url: '/location'
