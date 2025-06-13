@@ -5,7 +5,6 @@ speakers:
 categories:
   - Keynote
   - Talk
-hide: false
 ---
 
 Since second-generation sequencing arrived, we have needed to index our reference sequences (e.g. genomes or transcriptomes) in order to solve read alignment and classification problems efficiently. The rule has been: what we can index determines what we can do.
