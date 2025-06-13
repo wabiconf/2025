@@ -16,6 +16,10 @@ You can register for WABI 2025 [using this link](https://go.umd.edu/wabi25paymen
 
 You can submit your work to WABI [here](https://easychair.org/conferences/?conf=wabi2025).
 
+## <u> Keynote Speakers </u>
+
+This year WABI will have keynote addresses by [Christina Boucher](https://www.christinaboucher.com/) and [Ben Langmead](https://www.langmead-lab.org/)!
+
 ## <u>Call for Papers</u>
 
 ### WABI 2025 Call for Papers
