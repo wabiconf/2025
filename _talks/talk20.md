@@ -1,6 +1,5 @@
 ---
-name: Estimation of substitution and indel rates via k-mer
-statistics
+name: Estimation of substitution and indel rates via k-merstatistics
 speakers:
   - Mahmudur Rahman Hera
   - Paul Medvedev

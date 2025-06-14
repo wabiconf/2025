@@ -1,6 +1,5 @@
 ---
-name: Sequence similarity estimation by random subsequence
-sketching
+name: Sequence similarity estimation by random subsequencesketching
 speakers:
   - Ke Chen
   - Vinamratha Pattar

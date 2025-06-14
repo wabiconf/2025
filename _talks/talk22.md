@@ -1,6 +1,5 @@
 ---
-name: Identifying Breakpoint Median Genomes: A Branching
-Algorithm Approach
+name: Identifying Breakpoint Median Genomes: A BranchingAlgorithm Approach
 speakers:
   - Poly H. da Silva
   - Arash Jamshidpey

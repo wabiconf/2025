@@ -1,6 +1,5 @@
 ---
-name: Approximability of Longest Run Subsequence and
-Complementary Minimization Problems
+name: Approximability of Longest Run Subsequence andComplementary Minimization Problems
 speakers:
   - Yuichi Asahiro
   - Mingyang Gong

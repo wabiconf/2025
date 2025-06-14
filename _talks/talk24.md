@@ -1,6 +1,5 @@
 ---
-name: Which Phylogenetic Networks are Level-k Networks with
-Additional Arcs? Structure and Algorithms
+name: Which Phylogenetic Networks are Level-k Networks withAdditional Arcs? Structure and Algorithms
 speakers:
   - Takatora Suzuki
   - Momoko Hayamizu
