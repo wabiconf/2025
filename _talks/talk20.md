@@ -11,20 +11,20 @@ categories:
 hide: false
 ---
 
-Methods utilizing k-mers are widely used in
+Methods utilizing $k$-mers are widely used in
 bioinformatics, yet our understanding of their statistical
 properties under realistic mutation models remains
 incomplete.
 Previously, substitution-only mutation models have been
 considered to derive precise expectations and variances for
-mutated k-mers and intervals of mutated and nonmutated
+mutated $k$-mers and intervals of mutated and nonmutated
 sequences. In this work, we consider a mutation model that
 uses insertions and deletions in addition to
 single-nucleotide substitutions. Within this framework, we
-derive closed-form k-mer-based-estimators for the three
+derive closed-form $k$-mer-based-estimators for the three
 fundamental mutation parameters: substitution rate,
 deletion rate, and average insertion length. We provide
-statistics of k-mers under this model and theoretical
+statistics of $k$-mers under this model and theoretical
 guarantees via concentration inequalities, ensuring
 correctness under reasonable conditions. Empirical
 evaluations on simulated evolution of genomic sequences

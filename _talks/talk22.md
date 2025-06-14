@@ -25,7 +25,7 @@ NP-hard, particularly for unichromosomal genomes, and
 solving it becomes increasingly challenging under different
 genome distance models. In this work, we introduce a novel
 branching algorithm to efficiently find all breakpoint
-medians of k linear unichromosomal genomes, represented
+medians of $k$ linear unichromosomal genomes, represented
 as unsigned permutations. This algorithm constructs a
 rooted, labeled tree, where the sequence of labels along
 each complete ray defines a genome, providing a structured

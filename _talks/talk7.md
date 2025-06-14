@@ -21,7 +21,7 @@ with graph coordinates. Our method extends the FM-index
 with a run-length compressed tag structure that enables
 efficient retrieval of all unique graph locations where a
 query pattern appears. We introduce a novel construction
-algorithm that combines unique k-mers, graph-based
+algorithm that combines unique $k$-mers, graph-based
 extensions, and haplotype traversal to compute the tag
 array in a memory-efficient manner. To support large
 genomes, we process each chromosome independently and then
