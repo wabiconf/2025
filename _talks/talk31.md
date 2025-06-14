@@ -2,7 +2,10 @@
 name: An Efficient Data Structure and Algorithm for Long-Match
 Query in Run-Length Compressed BWT
 speakers:
-	- Ahsan Sanaullah	- Degui Zhi	- Shaojie Zhangcategories:
+	- Ahsan Sanaullah
+	- Degui Zhi
+	- Shaojie Zhang
+categories:
 	- Proceedings
 	- Talk
 ---

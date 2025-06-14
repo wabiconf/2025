@@ -1,7 +1,10 @@
 ---
 name: Haplotype-aware long-read error correction
 speakers:
-	- Parvesh Barak	- Daniel Gibney	- Chirag Jaincategories:
+	- Parvesh Barak
+	- Daniel Gibney
+	- Chirag Jain
+categories:
 	- Proceedings
 	- Talk
 ---

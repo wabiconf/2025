@@ -2,7 +2,16 @@
 name: Approximability of Longest Run Subsequence and
 Complementary Minimization Problems
 speakers:
-	- Yuichi Asahiro	- Mingyang Gong	- Jesper Jansson	- Guohui Lin	- Sichen Lu	- Eiji Miyano	- Hirotaka Ono	- Toshiki Saitoh	- Shunichi Tanakacategories:
+	- Yuichi Asahiro
+	- Mingyang Gong
+	- Jesper Jansson
+	- Guohui Lin
+	- Sichen Lu
+	- Eiji Miyano
+	- Hirotaka Ono
+	- Toshiki Saitoh
+	- Shunichi Tanaka
+categories:
 	- Proceedings
 	- Talk
 ---

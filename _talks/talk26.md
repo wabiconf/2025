@@ -1,7 +1,9 @@
 ---
 name: Partitioned Multi-MUM finding for scalable pangenomics
 speakers:
-	- Vikram Shivakumar	- Ben Langmeadcategories:
+	- Vikram Shivakumar
+	- Ben Langmead
+categories:
 	- Proceedings
 	- Talk
 ---

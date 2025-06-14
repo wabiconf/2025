@@ -2,7 +2,9 @@
 name: Linear-space Subquadratic-time String Alignment Algorithm
 for Arbitrary Scoring Matrices
 speakers:
-	- Ryosuke Yamano	- Tetsuo Shibuyacategories:
+	- Ryosuke Yamano
+	- Tetsuo Shibuya
+categories:
 	- Proceedings
 	- Talk
 ---

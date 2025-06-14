@@ -2,7 +2,9 @@
 name: Dolphyin: A Combinatorial Algorithm for Identifying
 $1$-Dollo Phylogenies in Cancer
 speakers:
-	- Daniel Feng	- Mohammed El-Kebircategories:
+	- Daniel Feng
+	- Mohammed El-Kebir
+categories:
 	- Proceedings
 	- Talk
 ---

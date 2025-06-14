@@ -2,7 +2,9 @@
 name: Human readable compression of GFA paths using grammar-based
 code
 speakers:
-	- Peter Heringer	- Daniel Doerrcategories:
+	- Peter Heringer
+	- Daniel Doerr
+categories:
 	- Proceedings
 	- Talk
 ---

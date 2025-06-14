@@ -1,7 +1,9 @@
 ---
 name: Design of Worst-Case-Optimal Spaced Seeds
 speakers:
-	- Jens Zentgraf	- Sven Rahmanncategories:
+	- Jens Zentgraf
+	- Sven Rahmann
+categories:
 	- Proceedings
 	- Talk
 ---

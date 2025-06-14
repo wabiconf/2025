@@ -1,7 +1,10 @@
 ---
 name: Mutational signature refitting on sparse pan-cancer data
 speakers:
-	- Gal Gilad	- Teresa Przytycka	- Roded Sharancategories:
+	- Gal Gilad
+	- Teresa Przytycka
+	- Roded Sharan
+categories:
 	- Proceedings
 	- Talk
 ---

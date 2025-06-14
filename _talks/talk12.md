@@ -1,7 +1,11 @@
 ---
 name: Lossless Pangenome Indexing Using Tag Arrays
 speakers:
-	- Parsa Esk	- ar	- Benedict Paten	- Jouni Siréncategories:
+	- Parsa Esk
+	- ar
+	- Benedict Paten
+	- Jouni Sirén
+categories:
 	- Proceedings
 	- Talk
 ---

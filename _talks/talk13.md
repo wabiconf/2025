@@ -2,7 +2,10 @@
 name: Sequence similarity estimation by random subsequence
 sketching
 speakers:
-	- Ke Chen	- Vinamratha Pattar	- Mingfu Shaocategories:
+	- Ke Chen
+	- Vinamratha Pattar
+	- Mingfu Shao
+categories:
 	- Proceedings
 	- Talk
 ---

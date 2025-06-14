@@ -2,7 +2,11 @@
 name: Estimation of substitution and indel rates via $k$-mer
 statistics
 speakers:
-	- Mahmudur Rahman Hera	- Paul Medvedev	- David Koslicki	- Antonio Blancacategories:
+	- Mahmudur Rahman Hera
+	- Paul Medvedev
+	- David Koslicki
+	- Antonio Blanca
+categories:
 	- Proceedings
 	- Talk
 ---
