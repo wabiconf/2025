@@ -1,41 +1,44 @@
 ---
-name: Estimation of substitution and indel rates via k-mer
-statistics
+name: Graph-Based Extension of Partial Atom Maps: Theoretical
+Uniqueness and Practical Algorithms
 speakers:
-  - Mahmudur Rahman Hera
-  - Paul Medvedev
-  - David Koslicki
-  - Antonio Blanca
+  - Marcos E. González Laffitte
+  - Tieu-Long Phan
+  - Peter F.
+Stadler
 categories:
   - Proceedings
   - Talk
 hide: false
 ---
 
-Methods utilizing k-mers are widely used in
-bioinformatics, yet our understanding of their statistical
-properties under realistic mutation models remains
-incomplete.
-Previously, substitution-only mutation models have been
-considered to derive precise expectations and variances for
-mutated k-mers and intervals of mutated and nonmutated
-sequences. In this work, we consider a mutation model that
-uses insertions and deletions in addition to
-single-nucleotide substitutions. Within this framework, we
-derive closed-form k-mer-based-estimators for the three
-fundamental mutation parameters: substitution rate,
-deletion rate, and average insertion length. We provide
-statistics of k-mers under this model and theoretical
-guarantees via concentration inequalities, ensuring
-correctness under reasonable conditions. Empirical
-evaluations on simulated evolution of genomic sequences
-confirm our theoretical findings, demonstrating that
-accounting for indel signals allows for accurate estimation
-of mutation rates and improves upon the results obtained by
-considering a substitution-only model. An implementation of
-estimating the mutation parameters from a pair of FASTA
-files is available here here:
-\href{https://github.com/mahmudhera/estimate_rates_using_mutation_model.git}{github.com/mahmudhera/estimate\_rates\_using\_mutation\_model.git}.
-The results presented in this manuscript can be reproduced
-using the code available here:
-\href{https://github.com/mahmudhera/est_rates_experiments.git}{github.com/mahmudhera/est\_rates\_experiments.git}.
+Chemical reaction databases typically report the molecular
+structures of reactant and products as well as their
+stoichiometry but lack information on the correspondence of
+reactant and product atoms. These atom-to-atom maps (AAM),
+however, are crucial for applications including chemical
+synthesis planning in organic chemistry and the analysis of
+isotope labeling experiment in modern metabolomics. AAMs
+therefore need to be reconstructed computationally. This
+situtation is aggravated, furthermore,
+by the fact that chemically correct AAMs are,
+fundamentally, determined by quantum-mechanical phenomena
+and thus cannot be reliably computed by solving
+graph-theoretical optimization problems defined by the
+reactant and product structures. A viable solution for this
+problem is to shift the focus into first identifying a
+partial AAM containing the reaction center, i.e., covering
+the atoms incident
+with all bonds that change during a reaction. This then
+leads to the problem of extending the partial map to the
+full reaction. The AAM of a reaction is faithfully
+represented by the Imaginary Transition State (ITS) graph,
+providing a convenient graph-theoretic framework to address
+the questions of when and how a partial AAM can be
+extended. We show that an unique extension exists whenever,
+and only if, these partial AAMs cover the reaction center.
+In this case their extension can be computed by solving a
+constrained graph-isomorphism search between specific
+subgraphs of ITS
+graphs. We close by benchmarking different tools for this
+task.

@@ -1,42 +1,55 @@
 ---
-name: Identifying Breakpoint Median Genomes: A Branching
-Algorithm Approach
+name: Spark: sparsified hierarchical energy minimization of RNA
+pseudoknots
 speakers:
-  - Poly H. da Silva
-  - Arash Jamshidpey
-  - David Sankoff
+  - Mateo Gray
+  - Sebastian Will
+  - Hosna Jabbari
 categories:
   - Proceedings
   - Talk
 hide: false
 ---
 
-Genome comparison often involves quantifying
-dissimilarities between genomes with identical gene sets,
-commonly using breakpoints—points where adjacent genes in
-one genome are not adjacent in another. The concept of a
-median genome, used for comparison of multiple genomes,
-aims to find a genome that minimizes the total distance to
-all genomes in a given set. While median genomes are useful
-for extracting common genomic information and estimating
-ancestral traits, the existence of multiple, divergent
-medians raises concerns about their accuracy in reflecting
-the true ancestor. The median problem is known to be
-NP-hard, particularly for unichromosomal genomes, and
-solving it becomes increasingly challenging under different
-genome distance models. In this work, we introduce a novel
-branching algorithm to efficiently find all breakpoint
-medians of k linear unichromosomal genomes, represented
-as unsigned permutations. This algorithm constructs a
-rooted, labeled tree, where the sequence of labels along
-each complete ray defines a genome, providing a structured
-and efficient way to explore the space of candidate medians
-by narrowing the search to a well-defined and significantly
-smaller subset of the permutation space. We validate our
-approach with experiments on randomly generated sets of
-three permutations. The results show that our method
-successfully computes the exact median value and also
-identifies many near-optimal approximations. Our
-experiments further show that most medians lie relatively
-close to the input permutations, in agreement with prior
-theoretical results.
+Motivation:
+Determining RNA structure is essential for understanding
+RNA function and interaction networks. Although
+experimental techniques yield high‑accuracy structures,
+they are costly and time‑consuming; thus, computational
+approaches--especially minimum‑free‑energy (MFE) prediction
+algorithms--are indispensable. Accurately predicting
+pseudoknots, however, remains challenging because their
+inclusion usually leads to prohibitive computational
+complexity. Recent work demonstrated that sparsification
+can improve the efficiency of complex pseudoknot prediction
+algorithms such as Knotty. This finding suggests similar
+gains are possible for already efficient algorithms like
+HFold, which targets a complementary class of
+hierarchically constrained pseudoknots.
+Results:
+We introduce Spark, an exact, fully sparsified algorithm
+for predicting pseudoknotted RNA structures. Like its
+non‑sparsified predecessor HFold, Spark searches for the
+minimum‑energy structure under the HotKots 2.0 energy
+model, a pseudoknot extension of the Turner model. Because
+the sparsification is non‑heuristic, Spark preserves the
+asymptotic time‑ and space‑complexity guarantees of HFold
+while greatly reducing the constant factors. We benchmarked
+the performance of Spark against HFold and, as a
+pseudoknot‑free baseline, RNAFold. Compared with HFold,
+Spark substantially lowers both run time and memory usage,
+while achieving run‑time figures close to those of RNAFold.
+Across all tested sequence lengths, Spark used the least
+memory and consistently ran faster than HFold.
+Conclusion:
+By extending non‑heuristic sparsification to hierarchical
+pseudoknot prediction, Spark delivers an exceptionally fast
+and memory‑efficient tool accurate prediction of
+pseudoknotted RNA structures, enabling routine analysis of
+long sequences. The algorithm broadens the practical scope
+of computational RNA biology and provides a solid
+foundation for future advances in structure‑based
+functional annotation.
+Availability:
+Spark’s implementation and detailed results are available
+at https://github.com/TheCOBRALab/Spark.

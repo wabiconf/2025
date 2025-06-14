@@ -1,29 +1,42 @@
 ---
-name: Partitioned Multi-MUM finding for scalable pangenomics
+name: Average-Tree Phylogenetic Diversity of Networks
 speakers:
-  - Vikram Shivakumar
-  - Ben Langmead
+  - Leo van Iersel
+  - Mark Jones
+  - Jannik Schestag
+  - Celine
+Scornavacca
+  - Mathias Weller
 categories:
   - Proceedings
   - Talk
 hide: false
 ---
 
-Pangenome collections are growing to hundreds of
-high-quality genomes. This necessitates scalable methods
-for constructing pangenome alignments that can incorporate
-newly-sequenced assemblies. We previously developed
-Mumemto, which computes maximal unique matches (multi-MUMs)
-across pangenomes using compressed indexing. In this work,
-we extend Mumemto by introducing two new partitioning and
-merging strategies. Both strategies enable highly parallel,
-memory efficient, and updateable computation of multi-MUMs.
-One of the strategies, called string-based merging, is also
-capable of conducting the merges in a way that follows the
-shape of a phylogenetic tree, naturally yielding the
-multi-MUM for the tree's internal nodes as well as the
-root. With these strategies, Mumemto now scales to 474
-human haplotypes, the only multi-MUM method able to do so.
-It also introduces a time-memory tradeoff that allows
-Mumemto to be tailored to more scenarios, including in
-resource-limited settings.
+Phylogenetic diversity is a measure used to quantify the
+biodiversity of a set of species.
+Here,  we introduce the "average-tree" phylogenetic
+diversity score in rooted binary phylogenetic networks and
+consider algorithms for computing and maximizing the score
+on a given network.
+Basically, the score is the weighted average of the
+phylogenetic diversity scores in all trees displayed by the
+network, with the weights determined by the inheritance
+probabilities on the reticulation edges used in the
+embeddings.
+We show that computing the score of a given set of taxa in
+a given network is #P-hard, directly implying #P-hardness
+of finding a subset of k taxa achieving maximum diversity
+score and, thereby, ruling out polynomial-time algorithms
+for these problems unless the polynomial hierarchy
+collapses.
+However, we show that both problems can be solved
+efficiently if the input network is close to being a tree
+in the sense that its reticulation number is small.
+More precisely, we prove that we can solve the optimization
+problem in networks with n leaves and r reticulations
+in 2^{O(r)} nk time.
+Using experiments on data produced by simulating a
+reticulate-evolution process, we show that our algorithm
+runs within 5 minutes on a laptop computer on networks with
+up to 500 taxa and 55 reticulations, for k \leq 5.

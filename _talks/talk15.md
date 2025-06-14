@@ -1,38 +1,29 @@
 ---
-name: K-mer-based estimators of the substitution rate of
-repetitive sequences
+name: Partitioned Multi-MUM finding for scalable pangenomics
 speakers:
-  - Haonan Wu
-  - Antonio Blanca
-  - Paul Medvedev
+  - Vikram Shivakumar
+  - Ben Langmead
 categories:
   - Proceedings
   - Talk
 hide: false
 ---
 
-K-mer-based analysis of genomic data is ubiquitous, but the
-presence of repetitive k-mers continues to complicate the
-accuracy of many methods. For example, the Mash tool (Ondov
-et al 2016) can accurately estimate the substitution rate
-between two low-repetitive sequences from their \kmer
-sketches; however, its estimator is highly inaccurate on
-repetitive sequences such as the centromere of a human
-chromosome. Recent work by Blanca et al. (2021) has
-attempted to model how mutations affect k-mer sets based on
-strong assumptions that the sequence is non-repetitive and
-that mutations do not create spurious k-mer matches.
-However, the theoretical foundations for extending an
-estimator like Mash to work in the presence of repeat
-sequences have been lacking.
-
-In this work, we relax the non-repetitive assumption and
-propose a novel estimator for the mutation rate. We derive
-theoretical bounds on our estimator’s bias. Our experiments
-show that it remains accurate for repetitive genomic
-sequences, such as the alpha satellite higher order repeats
-in centromeres. We demonstrate our estimator's robustness
-across diverse datasets and various ranges of the
-substitution rate and k-mer size. Finally, as with the Mash
-estimator, we show how sketching can be used to avoid
-dealing with large k-mer sets while retaining accuracy.
+Pangenome collections are growing to hundreds of
+high-quality genomes. This necessitates scalable methods
+for constructing pangenome alignments that can incorporate
+newly-sequenced assemblies. We previously developed
+Mumemto, which computes maximal unique matches (multi-MUMs)
+across pangenomes using compressed indexing. In this work,
+we extend Mumemto by introducing two new partitioning and
+merging strategies. Both strategies enable highly parallel,
+memory efficient, and updateable computation of multi-MUMs.
+One of the strategies, called string-based merging, is also
+capable of conducting the merges in a way that follows the
+shape of a phylogenetic tree, naturally yielding the
+multi-MUM for the tree's internal nodes as well as the
+root. With these strategies, Mumemto now scales to 474
+human haplotypes, the only multi-MUM method able to do so.
+It also introduces a time-memory tradeoff that allows
+Mumemto to be tailored to more scenarios, including in
+resource-limited settings.

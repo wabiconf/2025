@@ -1,52 +1,53 @@
 ---
-name: Design of Worst-Case-Optimal Spaced Seeds
+name: Fast pseudoalignment queries on compressed colored de
+Bruijn graphs
 speakers:
-  - Jens Zentgraf
-  - Sven Rahmann
+  - Alessio Campanelli
+  - Giulio Ermanno Pibiri
+  - Rob Patro
 categories:
   - Proceedings
   - Talk
 hide: false
 ---
 
-Read mapping is a fundamental problem in biological
-sequence analysis. For speed and computational efficiency,
-many popular read mappers tolerate only a few differences
-between the read and the corresponding part of the
-reference genome, which leads to reference bias: Reads with
-too many difference are not guaranteed to be mapped
-correctly or at all, because to even consider a genomic
-position, a sufficiently long exact match (seed) must exist.
+Motivation. Indexes for the colored de Bruijn graph (c-dBG)
+play a crucial role in computational
+biology by facilitating complex tasks such as read mapping
+and assembly. These indexes map k-mers
+(substrings of length k) appearing in a large collection of
+reference strings to the set of identifiers
+of the strings where they appear. These sets, colloquially
+referred to as color sets, tend to occupy
+large quantities of memory, especially for large
+pangenomes. Our previous work thus focused on
+leveraging the repetitiveness of the color sets to improve
+the space effectiveness of the resulting
+index. As a matter of fact, repetition-aware indexes can be
+up to one order of magnitude smaller on
+large pangenomes compared to indexes that do not exploit
+such repetitiveness. Such improved space
+effectiveness, on the other hand, imposes an overhead at
+query time when performing tasks such as
+pseudoalignment that require the collection and processing
+of multiple related color sets.
 
-While pangenomes and their graph-based representations
-provide one way to avoid reference bias by enlarging the
-reference, we explore an orthogonal approach and consider
-stronger substitution-tolerant primitives, namely spaced
-seeds or gapped k-mers. Given two integers k ≤ w, one
-considers k selected positions, described by a mask, from
-each length-w window in a sequence. In the existing
-literature, masks with certain probabilistic guarantees
-have been designed for small values of k.
+Methods. In this paper, we show how to avoid this overhead.
+We devise novel query algorithms
+tailored for the specific repetition-aware representations
+adopted by the Fulgor index, a state-of-the-
+art c-dBG index, to significantly improve its
+pseudoalignment efficiency and without consuming
+additional space.
 
-Here, for the first time, we take a combinatorial approach
-from a worst-case perspective. For any mask, using integer
-linear programs, we find least favorable distributions of
-sequence changes in two different senses: (1) minimizing
-the number of unchanged windows; (2) minimizing the number
-of positions covered by unchanged windows. Then, among all
-masks of a given shape (k, w), we find the set of best
-masks that maximize these minima. As a result, we obtain
-robust masks, even
-for large numbers of changes.
-
-We illustrate the properties of these masks by constructing
-a challenging set of reads that contain many approximately
-equidistributed substitutions (but no indels) that many
-existing tools cannot map, even though they are in
-principle easily mappable (apart from the large number of
-changes) because they originate from selected
-non-repetitive regions of the human reference genome.
-We observe that the majority of these reads can be mapped
-with a simple alignment-free approach using chosen gapped
-masks, where seeding approachs based on contiguous k-mers
-fail.
+Results. Our results indicate that with increasing
+redundancy in the pangenomes, the compression
+factor provided by the Fulgor index increases, while the
+relative query time actually reduces. For
+example, while the space of the Fulgor index improves by
+2.5× with repetition-aware compression
+and its query time improves by 1.6× on a collection of
+5,000 Salmonella Enterica genomes, these
+factors become (6.1×, 2.8×) and (11.0×, 3.2×) for 50,000
+and 150,000 genomes respectively. We
+expect these factors to grow for even larger collections.
