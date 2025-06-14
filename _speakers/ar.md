@@ -1,7 +1,7 @@
 ---
 name: ar
 first_name: ar
-last_name: []
+last_name: 
 links:
 - name: Profile
 ---

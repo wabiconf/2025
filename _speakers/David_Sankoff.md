@@ -1,7 +1,7 @@
 ---
 name: David Sankoff
 first_name: David
-last_name: ['Sankoff']
+last_name: Sankoff
 links:
 - name: Profile
 ---

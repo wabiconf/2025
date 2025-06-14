@@ -1,7 +1,7 @@
 ---
 name: Ali Ghaffaari
 first_name: Ali
-last_name: ['Ghaffaari']
+last_name: Ghaffaari
 links:
 - name: Profile
 ---
