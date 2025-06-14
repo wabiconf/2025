@@ -2,12 +2,13 @@
 name: K-mer-based estimators of the substitution rate of
 repetitive sequences
 speakers:
-	- Haonan Wu
-	- Antonio Blanca
-	- Paul Medvedev
+  - Haonan Wu
+  - Antonio Blanca
+  - Paul Medvedev
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 K-mer-based analysis of genomic data is ubiquitous, but the

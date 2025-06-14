@@ -1,12 +1,13 @@
 ---
 name: Mutational signature refitting on sparse pan-cancer data
 speakers:
-	- Gal Gilad
-	- Teresa Przytycka
-	- Roded Sharan
+  - Gal Gilad
+  - Teresa Przytycka
+  - Roded Sharan
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Mutational processes shape cancer genomes, leaving

@@ -2,11 +2,12 @@
 name: Linear-space Subquadratic-time String Alignment Algorithm
 for Arbitrary Scoring Matrices
 speakers:
-	- Ryosuke Yamano
-	- Tetsuo Shibuya
+  - Ryosuke Yamano
+  - Tetsuo Shibuya
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Theoretically, the fastest algorithm by Crochemore et al.

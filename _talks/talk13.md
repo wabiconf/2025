@@ -2,12 +2,13 @@
 name: Sequence similarity estimation by random subsequence
 sketching
 speakers:
-	- Ke Chen
-	- Vinamratha Pattar
-	- Mingfu Shao
+  - Ke Chen
+  - Vinamratha Pattar
+  - Mingfu Shao
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Sequence similarity estimation is essential for many

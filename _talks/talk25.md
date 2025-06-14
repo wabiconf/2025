@@ -1,15 +1,16 @@
 ---
 name: Average-Tree Phylogenetic Diversity of Networks
 speakers:
-	- Leo van Iersel
-	- Mark Jones
-	- Jannik Schestag
-	- Celine
+  - Leo van Iersel
+  - Mark Jones
+  - Jannik Schestag
+  - Celine
 Scornavacca
-	- Mathias Weller
+  - Mathias Weller
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Phylogenetic diversity is a measure used to quantify the

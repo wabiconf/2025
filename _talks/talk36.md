@@ -2,12 +2,13 @@
 name: Spark: sparsified hierarchical energy minimization of RNA
 pseudoknots
 speakers:
-	- Mateo Gray
-	- Sebastian Will
-	- Hosna Jabbari
+  - Mateo Gray
+  - Sebastian Will
+  - Hosna Jabbari
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Motivation:

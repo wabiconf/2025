@@ -2,11 +2,12 @@
 name: Human readable compression of GFA paths using grammar-based
 code
 speakers:
-	- Peter Heringer
-	- Daniel Doerr
+  - Peter Heringer
+  - Daniel Doerr
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Pangenome graphs offer a compact and comprehensive

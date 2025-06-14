@@ -1,11 +1,12 @@
 ---
 name: Design of Worst-Case-Optimal Spaced Seeds
 speakers:
-	- Jens Zentgraf
-	- Sven Rahmann
+  - Jens Zentgraf
+  - Sven Rahmann
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Read mapping is a fundamental problem in biological

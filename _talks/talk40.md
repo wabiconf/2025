@@ -1,15 +1,16 @@
 ---
 name: Improved Algorithms for Bi-partition Function Computation
 speakers:
-	- John Bridgers
-	- Jan Hoinka
-	- S. Cenk Sahinalp
-	- Salem Malikic
-	- Teresa Przytycka
-	- A. Funda Ergun
+  - John Bridgers
+  - Jan Hoinka
+  - S. Cenk Sahinalp
+  - Salem Malikic
+  - Teresa Przytycka
+  - A. Funda Ergun
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 The evolutionary history of a tumor, inferred from

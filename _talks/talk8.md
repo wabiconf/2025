@@ -2,13 +2,14 @@
 name: DiVerG: Scalable Distance Index for Validation of
 Paired-End Alignments in Sequence Graphs
 speakers:
-	- Ali Ghaffaari
-	- Alex
-	- er Schönhuth
-	- Tobias Marschall
+  - Ali Ghaffaari
+  - Alex
+  - er Schönhuth
+  - Tobias Marschall
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Determining the distance between two loci within a genomic

@@ -2,13 +2,14 @@
 name: Graph-Based Extension of Partial Atom Maps: Theoretical
 Uniqueness and Practical Algorithms
 speakers:
-	- Marcos E. González Laffitte
-	- Tieu-Long Phan
-	- Peter F.
+  - Marcos E. González Laffitte
+  - Tieu-Long Phan
+  - Peter F.
 Stadler
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Chemical reaction databases typically report the molecular

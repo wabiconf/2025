@@ -1,13 +1,14 @@
 ---
 name: Lossless Pangenome Indexing Using Tag Arrays
 speakers:
-	- Parsa Esk
-	- ar
-	- Benedict Paten
-	- Jouni Sirén
+  - Parsa Esk
+  - ar
+  - Benedict Paten
+  - Jouni Sirén
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Pangenome graphs represent the genomic variation by

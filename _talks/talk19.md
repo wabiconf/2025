@@ -1,12 +1,13 @@
 ---
 name: Haplotype-aware long-read error correction
 speakers:
-	- Parvesh Barak
-	- Daniel Gibney
-	- Chirag Jain
+  - Parvesh Barak
+  - Daniel Gibney
+  - Chirag Jain
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Error correction of long reads is an important initial step

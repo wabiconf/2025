@@ -2,11 +2,12 @@
 name: Which Phylogenetic Networks are Level-k Networks with
 Additional Arcs? Structure and Algorithms
 speakers:
-	- Takatora Suzuki
-	- Momoko Hayamizu
+  - Takatora Suzuki
+  - Momoko Hayamizu
 categories:
-	- Proceedings
-	- Talk
+  - Proceedings
+  - Talk
+hide: false
 ---
 
 Reticulate evolution gives rise to complex phylogenetic
