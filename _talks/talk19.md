@@ -3,8 +3,7 @@ name: "Graph-Based Extension of Partial Atom Maps: TheoreticalUniqueness and Pra
 speakers:
   - Marcos E. González Laffitte
   - Tieu-Long Phan
-  - Peter F.
-Stadler
+  - Peter F.Stadler
 categories:
   - Proceedings
   - Talk

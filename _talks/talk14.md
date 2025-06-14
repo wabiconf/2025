@@ -4,8 +4,7 @@ speakers:
   - Leo van Iersel
   - Mark Jones
   - Jannik Schestag
-  - Celine
-Scornavacca
+  - CelineScornavacca
   - Mathias Weller
 categories:
   - Proceedings
