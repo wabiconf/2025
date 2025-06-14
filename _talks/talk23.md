@@ -1,5 +1,5 @@
 ---
-name: Improved Algorithms for Bi-partition Function Computation
+name: "Improved Algorithms for Bi-partition Function Computation"
 speakers:
   - John Bridgers
   - Jan Hoinka

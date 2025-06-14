@@ -1,5 +1,5 @@
 ---
-name: Haplotype-aware long-read error correction
+name: "Haplotype-aware long-read error correction"
 speakers:
   - Parvesh Barak
   - Daniel Gibney

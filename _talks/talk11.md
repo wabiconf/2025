@@ -1,5 +1,5 @@
 ---
-name: Design of Worst-Case-Optimal Spaced Seeds
+name: "Design of Worst-Case-Optimal Spaced Seeds"
 speakers:
   - Jens Zentgraf
   - Sven Rahmann

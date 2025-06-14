@@ -1,5 +1,5 @@
 ---
-name: Lossless Pangenome Indexing Using Tag Arrays
+name: "Lossless Pangenome Indexing Using Tag Arrays"
 speakers:
   - Parsa Eskandar
   - Benedict Paten

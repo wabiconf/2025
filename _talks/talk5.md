@@ -1,5 +1,5 @@
 ---
-name: Mutational signature refitting on sparse pan-cancer data
+name: "Mutational signature refitting on sparse pan-cancer data"
 speakers:
   - Gal Gilad
   - Teresa Przytycka

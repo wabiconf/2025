@@ -1,5 +1,5 @@
 ---
-name: Spark: sparsified hierarchical energy minimization of RNApseudoknots
+name: "Spark: sparsified hierarchical energy minimization of RNApseudoknots"
 speakers:
   - Mateo Gray
   - Sebastian Will

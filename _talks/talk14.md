@@ -1,5 +1,5 @@
 ---
-name: Average-Tree Phylogenetic Diversity of Networks
+name: "Average-Tree Phylogenetic Diversity of Networks"
 speakers:
   - Leo van Iersel
   - Mark Jones
