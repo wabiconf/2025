@@ -1,31 +1,41 @@
 ---
-name: Haplotype-aware long-read error correction
+name: Estimation of substitution and indel rates via k-mer
+statistics
 speakers:
-  - Parvesh Barak
-  - Daniel Gibney
-  - Chirag Jain
+  - Mahmudur Rahman Hera
+  - Paul Medvedev
+  - David Koslicki
+  - Antonio Blanca
 categories:
   - Proceedings
   - Talk
 hide: false
 ---
 
-Error correction of long reads is an important initial step
-in genome assembly workflows. For organisms with ploidy
-greater than one, it is important to preserve
-haplotype-specific variation during read correction. This
-challenge has driven the development of several
-haplotype-aware correction methods. However, existing
-methods are based on either ad-hoc heuristics or deep
-learning approaches. In this paper, we introduce a rigorous
-formulation for this problem. Our approach builds on the
-minimum error correction framework used in reference-based
-haplotype phasing.  We prove that the proposed formulation
-for error correction of reads in "de novo" context, i.e.,
-without using a reference genome, is NP-hard. To make our
-exact algorithm scale to large datasets, we introduce
-practical heuristics. Experiments using PacBio HiFi
-sequencing datasets from human and plant genomes show that
-our approach achieves accuracy comparable to
-state-of-the-art methods.
-Implementation: https://github.com/at-cg/HALE
+Methods utilizing k-mers are widely used in
+bioinformatics, yet our understanding of their statistical
+properties under realistic mutation models remains
+incomplete.
+Previously, substitution-only mutation models have been
+considered to derive precise expectations and variances for
+mutated k-mers and intervals of mutated and nonmutated
+sequences. In this work, we consider a mutation model that
+uses insertions and deletions in addition to
+single-nucleotide substitutions. Within this framework, we
+derive closed-form k-mer-based-estimators for the three
+fundamental mutation parameters: substitution rate,
+deletion rate, and average insertion length. We provide
+statistics of k-mers under this model and theoretical
+guarantees via concentration inequalities, ensuring
+correctness under reasonable conditions. Empirical
+evaluations on simulated evolution of genomic sequences
+confirm our theoretical findings, demonstrating that
+accounting for indel signals allows for accurate estimation
+of mutation rates and improves upon the results obtained by
+considering a substitution-only model. An implementation of
+estimating the mutation parameters from a pair of FASTA
+files is available here here:
+\href{https://github.com/mahmudhera/estimate_rates_using_mutation_model.git}{github.com/mahmudhera/estimate\_rates\_using\_mutation\_model.git}.
+The results presented in this manuscript can be reproduced
+using the code available here:
+\href{https://github.com/mahmudhera/est_rates_experiments.git}{github.com/mahmudhera/est\_rates\_experiments.git}.

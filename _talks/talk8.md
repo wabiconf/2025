@@ -1,47 +1,37 @@
 ---
-name: DiVerG: Scalable Distance Index for Validation of
-Paired-End Alignments in Sequence Graphs
+name: Sequence similarity estimation by random subsequence
+sketching
 speakers:
-  - Ali Ghaffaari
-  - Alex
-  - er Schönhuth
-  - Tobias Marschall
+  - Ke Chen
+  - Vinamratha Pattar
+  - Mingfu Shao
 categories:
   - Proceedings
   - Talk
 hide: false
 ---
 
-Determining the distance between two loci within a genomic
-region is a recurrent operation in various tasks in
-computational genomics. A notable example of this task
-arises in paired-end read mapping as a form of validation
-of distances between multiple alignments. While
-straightforward for a single genome, graph-based reference
-structures render the operation considerably more involved.
-Given the sheer number of such queries in a typical read
-mapping experiment, an efficient algorithm for answering
-distance queries is crucial.
-
-In this paper, we introduce DiVerG, a compact data
-structure as well as a fast and scalable algorithm, for
-constructing distance indexes for general sequence graphs
-on multi-core CPU and many-core GPU architectures. DiVerG
-is based on PairG [Jain et al., 2019], but overcomes the
-limitations of PairG by exploiting the extensive potential
-for improvements in terms of scalability and space
-efficiency. As a consequence, DiVerG can process
-substantially larger datasets, such as whole human genomes,
-which are unmanageable by PairG. DiVerG offers faster index
-construction time and consistently faster query time with
-gains proportional to the size of the underlying compact
-data structure. We demonstrate that our method performs
-favorably on multiple real datasets at various scales.
-DiVerG achieves superior performance over PairG; e.g.
-resulting to 2.5--4x speed-up in query time, 44--340x
-smaller index size, and 3--50x faster construction time for
-the genome graph of the MHC region, as a particularly
-variable region of the human genome.
-
-The implementation is available at:
-https://github.com/cartoonist/diverg
+Sequence similarity estimation is essential for many
+bioinformatics tasks, including functional annotation,
+phylogenetic analysis, and overlap graph construction.
+Alignment-free methods aim to solve large-scale sequence
+similarity estimation by mapping sequences to more easily
+comparable features that can approximate edit distances
+efficiently. Substrings or k-mers, as the dominant choice
+of features, face an unavoidable compromise between
+sensitivity and specificity when selecting the proper
+k-value. Recently, subsequence-based features have shown
+improved performance, but they are computationally
+demanding, and determining the ideal subsequence length
+remains an intricate art. In this work, we introduce
+SubseqSketch, a novel alignment-free scheme that maps a
+sequence to an integer vector, where the entries correspond
+to dynamic, rather than fixed, lengths of random
+subsequences. The cosine similarity between these vectors
+exhibits a strong correlation with the edit similarity
+between the original sequences. Through experiments on
+benchmark datasets, we demonstrate that SubseqSketch is
+both efficient and effective across various alignment-free
+tasks, including nearest neighbor search and phylogenetic
+clustering. A C++ implementation of SubseqSketch is openly
+available at https://github.com/Shao-Group/SubseqSketch.

@@ -1,43 +1,39 @@
 ---
-name: Human readable compression of GFA paths using grammar-based
-code
+name: Which Phylogenetic Networks are Level-k Networks with
+Additional Arcs? Structure and Algorithms
 speakers:
-  - Peter Heringer
-  - Daniel Doerr
+  - Takatora Suzuki
+  - Momoko Hayamizu
 categories:
   - Proceedings
   - Talk
 hide: false
 ---
 
-Pangenome graphs offer a compact and comprehensive
-representation of genomic diversity, improving tasks such
-as variant calling, genotyping, and other downstream
-analyses. Although the underlying graph structures scale
-sublinearly with the number of haplotypes, the widely used
-GFA file format suffers from rapidly growing file sizes due
-to the explicit and repetitive encoding of haplotype paths.
-In this work, we introduce an extension to the GFA format
-that enables efficient grammar-based compression of
-haplotype paths while retaining human readability. In
-addition, grammar-based encoding provides an efficient
-in-memory data structure that does not require
-decompression, but conversely improves the runtime of many
-computational tasks that involve haplotype comparisons.
-
-We present SQZ, a method that makes use of the proposed
-format extension to encode haplotype paths using byte pair
-encoding, a grammar-based compression scheme. We evaluate
-SQZ on recent human pangenome graphs from Heumos et al. and
-the Human Pangenome Reference Consortium, comparing it to
-existing compressors BGZIP, GBZ, and Sequitur. SQZ scales
-sublinearly with the number of haplotypes in a pangenome
-graph and consistently achieves higher compression ratios
-than Sequitur and up to 5 times better compression than
-BGZIP. When combined with BGZIP, SQZ matches or excels the
-compression ratio of GBZ across all our datasets.
-
-These results demonstrate the potential of our proposed
-extension of the GFA format in reducing haplotype path
-redundancy and improving storage efficiency for pangenome
-graphs.
+Reticulate evolution gives rise to complex phylogenetic
+networks, making their interpretation challenging. A
+typical approach is to extract trees within such networks.
+Since Francis and Steel's seminal paper, "Which
+Phylogenetic Networks are Merely Trees with Additional
+Arcs?" (2015), tree-based phylogenetic networks and their
+support trees (spanning trees with the same root and leaf
+set as a given network) have been extensively studied.
+However, not all phylogenetic networks are tree-based, and
+for the study of reticulate evolution, it is often more
+biologically relevant to identify support networks rather
+than trees. This study generalizes Hayamizu's structure
+theorem for rooted binary phylogenetic networks, which
+yielded optimal algorithms for various computational
+problems on support trees, to extend the theoretical
+framework for support trees to support networks. This
+allows us to obtain a direct-product characterization of
+each of three sets: all, minimal, and minimum support
+networks, for a given network. Each characterization yields
+optimal algorithms for counting and generating the support
+networks of each type. Applications include a linear-time
+algorithm for finding a support network with the fewest
+reticulations (i.e., the minimum tier). We also provide
+exact and heuristic algorithms for finding a support
+network with the minimum level, both running in exponential
+time but practical across a reasonably wide range of
+reticulation numbers.

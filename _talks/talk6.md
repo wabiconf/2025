@@ -1,30 +1,47 @@
 ---
-name: Mutational signature refitting on sparse pan-cancer data
+name: DiVerG: Scalable Distance Index for Validation of
+Paired-End Alignments in Sequence Graphs
 speakers:
-  - Gal Gilad
-  - Teresa Przytycka
-  - Roded Sharan
+  - Ali Ghaffaari
+  - Alex
+  - er Schönhuth
+  - Tobias Marschall
 categories:
   - Proceedings
   - Talk
 hide: false
 ---
 
-Mutational processes shape cancer genomes, leaving
-characteristic marks that are termed signatures. The level
-of activity of each such process, or its signature
-exposure, provides important information on the disease,
-improving patient stratification and the prediction of drug
-response. Thus, there is growing interest in developing
-refitting methods that decipher those exposures. Previous
-work in this domain was unsupervised in nature, employing
-algebraic decomposition and probabilistic inference methods.
-Here we provide a supervised approach to the problem of
-signature refitting and show its superiority over current
-methods. Our method, SuRe, leverages a neural network model
-to capture correlations between signature exposures in real
-data. We show that SuRe outperforms previous methods on
-sparse mutation data from tumor type specific data sets, as
-well as pan-cancer data sets, with an increasing advantage
-as the data become sparser. We further demonstrate its
-utility in clinical settings.
+Determining the distance between two loci within a genomic
+region is a recurrent operation in various tasks in
+computational genomics. A notable example of this task
+arises in paired-end read mapping as a form of validation
+of distances between multiple alignments. While
+straightforward for a single genome, graph-based reference
+structures render the operation considerably more involved.
+Given the sheer number of such queries in a typical read
+mapping experiment, an efficient algorithm for answering
+distance queries is crucial.
+
+In this paper, we introduce DiVerG, a compact data
+structure as well as a fast and scalable algorithm, for
+constructing distance indexes for general sequence graphs
+on multi-core CPU and many-core GPU architectures. DiVerG
+is based on PairG [Jain et al., 2019], but overcomes the
+limitations of PairG by exploiting the extensive potential
+for improvements in terms of scalability and space
+efficiency. As a consequence, DiVerG can process
+substantially larger datasets, such as whole human genomes,
+which are unmanageable by PairG. DiVerG offers faster index
+construction time and consistently faster query time with
+gains proportional to the size of the underlying compact
+data structure. We demonstrate that our method performs
+favorably on multiple real datasets at various scales.
+DiVerG achieves superior performance over PairG; e.g.
+resulting to 2.5--4x speed-up in query time, 44--340x
+smaller index size, and 3--50x faster construction time for
+the genome graph of the MHC region, as a particularly
+variable region of the human genome.
+
+The implementation is available at:
+https://github.com/cartoonist/diverg

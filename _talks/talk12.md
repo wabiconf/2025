@@ -1,37 +1,43 @@
 ---
-name: Lossless Pangenome Indexing Using Tag Arrays
+name: Human readable compression of GFA paths using grammar-based
+code
 speakers:
-  - Parsa Esk
-  - ar
-  - Benedict Paten
-  - Jouni Sirén
+  - Peter Heringer
+  - Daniel Doerr
 categories:
   - Proceedings
   - Talk
 hide: false
 ---
 
-Pangenome graphs represent the genomic variation by
-encoding multiple haplotypes within a unified graph
-structure. However, efficient and lossless indexing of such
-structures remains challenging due to the scale and
-complexity of pangenomic data. We present a practical and
-scalable indexing framework based on tag arrays, which
-annotate positions in the Burrows--Wheeler transform (BWT)
-with graph coordinates. Our method extends the FM-index
-with a run-length compressed tag structure that enables
-efficient retrieval of all unique graph locations where a
-query pattern appears. We introduce a novel construction
-algorithm that combines unique k-mers, graph-based
-extensions, and haplotype traversal to compute the tag
-array in a memory-efficient manner. To support large
-genomes, we process each chromosome independently and then
-merge the results into a unified index using properties of
-the multi-string BWT and r-index. Our evaluation on the
-HPRC graphs demonstrates that the tag array structure
-compresses effectively, scales well with added haplotypes,
-and preserves accurate mapping information across diverse
-regions of the genome. This indexing method enables
-lossless and haplotype-aware querying in complex pangenomes
-and offers a practical indexing layer to develop scalable
-aligners and downstream graph-based analysis tools.
+Pangenome graphs offer a compact and comprehensive
+representation of genomic diversity, improving tasks such
+as variant calling, genotyping, and other downstream
+analyses. Although the underlying graph structures scale
+sublinearly with the number of haplotypes, the widely used
+GFA file format suffers from rapidly growing file sizes due
+to the explicit and repetitive encoding of haplotype paths.
+In this work, we introduce an extension to the GFA format
+that enables efficient grammar-based compression of
+haplotype paths while retaining human readability. In
+addition, grammar-based encoding provides an efficient
+in-memory data structure that does not require
+decompression, but conversely improves the runtime of many
+computational tasks that involve haplotype comparisons.
+
+We present SQZ, a method that makes use of the proposed
+format extension to encode haplotype paths using byte pair
+encoding, a grammar-based compression scheme. We evaluate
+SQZ on recent human pangenome graphs from Heumos et al. and
+the Human Pangenome Reference Consortium, comparing it to
+existing compressors BGZIP, GBZ, and Sequitur. SQZ scales
+sublinearly with the number of haplotypes in a pangenome
+graph and consistently achieves higher compression ratios
+than Sequitur and up to 5 times better compression than
+BGZIP. When combined with BGZIP, SQZ matches or excels the
+compression ratio of GBZ across all our datasets.
+
+These results demonstrate the potential of our proposed
+extension of the GFA format in reducing haplotype path
+redundancy and improving storage efficiency for pangenome
+graphs.
