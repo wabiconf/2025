@@ -24,7 +24,7 @@ and a text that aren't necessarily maximal in the query,
 but still contain useful matching information: locally
 maximal exact matches (LEMs). There are usually a large
 amount of LEMs, so we only consider those above some length
-threshold $\mathcal{L}$. These are referred to as long
+threshold \mathcal{L}. These are referred to as long
 LEMs. The purpose of long LEMs is to capture substring
 matches between a query and a text that are not necessarily
 maximal in the pattern but still long enough to be
@@ -37,17 +37,17 @@ redundancy in the data but retain efficient querying
 capability have been proposed as a solution. We therefore
 give an efficient algorithm for computing all the long LEMs
 of a query and a text in a BWT runs compressed string
-index. We describe an $O(m+occ)$ expected time algorithm
-that relies on an $O(r)$ words space string index for
+index. We describe an O(m+occ) expected time algorithm
+that relies on an O(r) words space string index for
 outputting all long LEMs of a pattern with respect to a
 text given the matching statistics of the pattern with
-respect to the text. Here $m$ is the length of the query,
-$occ$ is the number of long LEMs outputted, and $r$ is the
-number of runs in the BWT of the text. The $O(r)$ space
+respect to the text. Here m is the length of the query,
+occ is the number of long LEMs outputted, and r is the
+number of runs in the BWT of the text. The O(r) space
 string index we describe relies on an adaptation of the
 move data structure by Nishimoto and Tabei. We are able to
-support $LCP[i]$ queries in constant time given $SA[i]$. In
-other words, we answer $PLCP[i]$ queries in constant time.
+support LCP[i] queries in constant time given SA[i]. In
+other words, we answer PLCP[i] queries in constant time.
 Long LEMs may provide useful similarity information between
 a pattern and a text that MEMs may ignore. This information
 is particularly useful in pangenome and biobank scale

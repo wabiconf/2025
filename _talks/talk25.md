@@ -26,7 +26,7 @@ probabilities on the reticulation edges used in the
 embeddings.
 We show that computing the score of a given set of taxa in
 a given network is #P-hard, directly implying #P-hardness
-of finding a subset of $k$ taxa achieving maximum diversity
+of finding a subset of k taxa achieving maximum diversity
 score and, thereby, ruling out polynomial-time algorithms
 for these problems unless the polynomial hierarchy
 collapses.
@@ -34,9 +34,9 @@ However, we show that both problems can be solved
 efficiently if the input network is close to being a tree
 in the sense that its reticulation number is small.
 More precisely, we prove that we can solve the optimization
-problem in networks with $n$ leaves and $r$ reticulations
-in $2^{O(r)} nk$ time.
+problem in networks with n leaves and r reticulations
+in 2^{O(r)} nk time.
 Using experiments on data produced by simulating a
 reticulate-evolution process, we show that our algorithm
 runs within 5 minutes on a laptop computer on networks with
-up to 500 taxa and 55 reticulations, for $k \leq 5$.
+up to 500 taxa and 55 reticulations, for k \leq 5.
