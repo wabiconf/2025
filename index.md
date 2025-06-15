@@ -4,15 +4,22 @@ layout: home
 
 Welcome to the webpage for the WABI 2025 conference.  
 
-#### Where : WABI 2025 will be held at the University of Maryland, in College Park, MD 
+<br>
 
-#### When: WABI 2025 will be held August 20 - 22, 2025.
+#### <u> Where : </u>
+WABI 2025 will be held at the University of Maryland, in College Park, MD 
+
+<br>
+
+#### <u> When: </u>
+WABI 2025 will be held August 20 - 22, 2025.
+
+<br>
 
 ## <u> Keynote Speakers </u>
 
 This year WABI will have keynote addresses by [Christina Boucher](https://www.christinaboucher.com/) and [Ben Langmead](https://www.langmead-lab.org/)!
 
-<br>
 <br>
 
 ## Scope
