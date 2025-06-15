@@ -11,8 +11,8 @@ hide: false
 
 Several recent cancer phylogeny inference methods have used
 the $k$-Dollo evolutionary model for single-nucleotide
-variants. Specifically, in this problem one is given an $m
-\times n$ binary matrix $B$ and seeks a rooted tree $T$
+variants. Specifically, in this problem one is given an \(m
+\times n\) binary matrix $B$ and seeks a rooted tree $T$
 with $m$ leaves that correspond to the $m$ rows of $B$ such
 that each node of $T$ is labeled by a binary state for each
 of the $n$ characters subject to the restriction that each
