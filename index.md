@@ -8,8 +8,8 @@ Welcome to the webpage for the WABI 2025 conference.  WABI 2025 will be held at 
 
 This year WABI will have keynote addresses by [Christina Boucher](https://www.christinaboucher.com/) and [Ben Langmead](https://www.langmead-lab.org/)!
 
-</br>
-</br>
+<br>
+<br>
 
 ## Scope
 
