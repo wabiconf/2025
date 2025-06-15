@@ -4,6 +4,13 @@ layout: home
 
 Welcome to the webpage for the WABI 2025 conference.  WABI 2025 will be held at the University of Maryland, in College Park, MD from August 20 - 22, 2025.
 
+## <u> Keynote Speakers </u>
+
+This year WABI will have keynote addresses by [Christina Boucher](https://www.christinaboucher.com/) and [Ben Langmead](https://www.langmead-lab.org/)!
+
+</br>
+</br>
+
 ## Scope
 
 WABI is an international Conference covering research in algorithmic work in bioinformatics, computational biology and systems biology. The emphasis is mainly on discrete algorithms and machine learning methods that address important problems in molecular biology, that are founded on sound models, that are computationally efficient, and that provide evidence of their potential usefulness in practice, preferably by testing on appropriately chosen simulated or real datasets. The goal is to present recent research results, including significant work-in-progress, and to identify and explore directions of future research. 
@@ -15,10 +22,6 @@ You can register for WABI 2025 [using this link](https://go.umd.edu/wabi25paymen
 ## Paper submission
 
 You can submit your work to WABI [here](https://easychair.org/conferences/?conf=wabi2025).
-
-## <u> Keynote Speakers </u>
-
-This year WABI will have keynote addresses by [Christina Boucher](https://www.christinaboucher.com/) and [Ben Langmead](https://www.langmead-lab.org/)!
 
 ## <u>Call for Papers</u>
 
