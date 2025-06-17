@@ -7,10 +7,9 @@ categories:
   - Talk
 ---
 
-
 ![christina](https://wabiconf.github.io/2025/assets/images/christina.jpeg)
 
-Recursive Parsing and Grammar Compression in the Era of Pangenomics
+**Abstract**: Recursive Parsing and Grammar Compression in the Era of Pangenomics
 In this talk, we present a unifying perspective on Prefix-Free Parsing (PFP), a
 foundational technique in modern string processing, and its recursive extension,
 Recursive Prefix-Free Parsing (RPFP). Originally introduced to enable scalable
@@ -31,7 +30,7 @@ continue to grow. The talk concludes with a discussion of ongoing challenges and
 research questions at the intersection of algorithmic string processing, data
 compression, and pangenomic data analysis.
 
-**About the speaker**:Dr. Boucher is an Associate Professor in the Department
+**About the speaker**: Dr. Boucher is an Associate Professor in the Department
 of Computer and Information Science and Engineering at the University of
 Florida. She has over 160 publications in bioinformatics, with over two dozen
 of them in succinct data structures and/or alignment. Considering this, she was
