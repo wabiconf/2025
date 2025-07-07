@@ -8,24 +8,24 @@ window.conference.awaitReady().then(() => {
     const map = window.conference.map.getMap();
 
     if (typeof map !== 'undefined') {
-        let cambria = L.marker([ 38.993391267851806, -76.93235165234404 ], {
+        let the_hotel = L.marker([ 38.98703, -76.93524 ], {
             icon: L.divIcon({
                 className: '',
-                html: '<span class="fas fa-hotel"></span> Main Station',
+                html: '<span class="fas fa-hotel"></span> The Hotel',
                 iconSize: [120, 56]
             })
         }).addTo(map);
-        let marriott = L.marker([ 38.98663315625827, -76.95453432761065], {
+        let marriott = L.marker([ 38.985992, -76.954089 ], {
             icon: L.divIcon({
                 className: '',
-                html: '<span class="fas fa-hotel"></span> Main Station',
+                html: '<span class="fas fa-hotel"></span> Marriott',
                 iconSize: [120, 56]
             })
         }).addTo(map);
-        let the_hotel = L.marker([ 38.987325845573764, -76.93574769709168 ], {
+        let cambria = L.marker([ 38.993051, -76.932460 ], {
             icon: L.divIcon({
                 className: '',
-                html: '<span class="fas fa-hotel"></span> Main Station',
+                html: '<span class="fas fa-hotel"></span> Cambria Hotel',
                 iconSize: [120, 56]
             })
         }).addTo(map);
