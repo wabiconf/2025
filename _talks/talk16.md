@@ -1,5 +1,5 @@
 ---
-name: "K-mer-based estimators of the substitution rate ofrepetitive sequences"
+name: "K-mer-based estimators of the substitution rate of repetitive sequences"
 speakers:
   - Haonan Wu
   - Antonio Blanca

@@ -1,5 +1,5 @@
 ---
-name: "Fast pseudoalignment queries on compressed colored deBruijn graphs"
+name: "Fast pseudoalignment queries on compressed colored de Bruijn graphs"
 speakers:
   - Alessio Campanelli
   - Giulio Ermanno Pibiri

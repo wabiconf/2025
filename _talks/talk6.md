@@ -1,5 +1,5 @@
 ---
-name: "DiVerG: Scalable Distance Index for Validation ofPaired-End Alignments in Sequence Graphs"
+name: "DiVerG: Scalable Distance Index for Validation of Paired-End Alignments in Sequence Graphs"
 speakers:
   - Ali Ghaffaari
   - Alexander Schönhuth

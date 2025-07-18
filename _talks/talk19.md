@@ -1,5 +1,5 @@
 ---
-name: "Graph-Based Extension of Partial Atom Maps: TheoreticalUniqueness and Practical Algorithms"
+name: "Graph-Based Extension of Partial Atom Maps: Theoretical Uniqueness and Practical Algorithms"
 speakers:
   - Marcos E. González Laffitte
   - Tieu-Long Phan
