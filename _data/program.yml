@@ -14,18 +14,12 @@ days:
       - name: Partitioned Multi-MUM finding for scalable pangenomics
         time_start: '10:30'
         time_end: '11:00'
-      - name: break
-        time_start: '11:00'
-        time_end: '11:30'
       - name: DiVerG Scalable Distance Index for Validation of Paired-End Alignments in Sequence Graphs
         time_start: '11:30'
         time_end: '12:00'
       - name: Haplotype-aware long-read error correction
         time_start: '12:00'
         time_end: '12:30'
-      - name: lunch
-        time_start: '12:30'
-        time_end: '13:30'
       - name: Human readable compression of GFA paths using grammar-based code
         time_start: '13:30'
         time_end: '14:00'
@@ -35,9 +29,6 @@ days:
       - name: Graph-Based Extension of Partial Atom Maps Theoretical Uniqueness and Practical Algorithms
         time_start: '14:30'
         time_end: '15:00'
-      - name: break
-        time_start: '15:00'
-        time_end: '15:30'
       - name: Fast pseudoalignment queries on compressed colored de Bruijn graphs
         time_start: '15:30'
         time_end: '16:00'
@@ -62,18 +53,12 @@ days:
       - name: Sequence similarity estimation by random subsequence sketching
         time_start: '10:30'
         time_end: '11:00'
-      - name: break
-        time_start: '11:00'
-        time_end: '11:30'
       - name: Approximability of Longest Run Subsequence and Complementary Minimization Problems
         time_start: '11:30'
         time_end: '12:00'
       - name: Linear-space Subquadratic-time String Alignment Algorithm for Arbitrary Scoring Matrices
         time_start: '12:00'
         time_end: '12:30'
-      - name: lunch
-        time_start: '12:30'
-        time_end: '13:30'
       - name: Mutational signature refitting on sparse pan-cancer data
         time_start: '13:30'
         time_end: '14:00'
@@ -83,9 +68,6 @@ days:
       - name: Improved Algorithms for Bi-partition Function Computation
         time_start: '14:30'
         time_end: '15:00'
-      - name: break
-        time_start: '15:00'
-        time_end: '15:30'
       - name: business meeting (& posters redux)
         time_start: '15:30'
         time_end: '16:30'
@@ -101,9 +83,6 @@ days:
       - name: Spark sparsified hierarchical energy minimization of RNA pseudoknots
         time_start: '9:30'
         time_end: '10:00'
-      - name: break
-        time_start: '10:00'
-        time_end: '10:30'
       - name: Which Phylogenetic Networks are Level-k Networks with Additional Arcs? Structure and Algorithms
         time_start: '10:30'
         time_end: '11:00'
