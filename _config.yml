@@ -73,6 +73,8 @@ conference:
         color: success
       - name: Proceedings 
         color: info
+      - name: Other
+        color: dark
 
   location:
     url: '/location'
