@@ -1,5 +1,5 @@
 ---
-name: "poster session + reception"
+name: "Poster session + reception"
 speakers:
   - Many
 categories:
