@@ -68,7 +68,7 @@ days:
       - name: Improved Algorithms for Bi-partition Function Computation
         time_start: '14:30'
         time_end: '15:00'
-      - name: business meeting (& posters redux)
+      - name: "Business meeting (& posters redux)"
         time_start: '15:30'
         time_end: '16:30'
 - name: Friday
