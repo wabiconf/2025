@@ -26,7 +26,7 @@ days:
       - name: Estimation of substitution and indel rates via k-mer statistics
         time_start: '14:00'
         time_end: '14:30'
-      - name: Graph-Based Extension of Partial Atom Maps Theoretical Uniqueness and Practical Algorithms
+      - name: "Graph-Based Extension of Partial Atom Maps: Theoretical Uniqueness and Practical Algorithms"
         time_start: '14:30'
         time_end: '15:00'
       - name: Fast pseudoalignment queries on compressed colored de Bruijn graphs
@@ -35,7 +35,7 @@ days:
       - name: Lossless Pangenome Indexing Using Tag Arrays
         time_start: '16:00'
         time_end: '16:30'
-      - name: Poster session + reception?
+      - name: Poster session + reception
         time_start: '16:30'
         time_end: '18:00'
 - name: Thursdasy 
@@ -62,7 +62,7 @@ days:
       - name: Mutational signature refitting on sparse pan-cancer data
         time_start: '13:30'
         time_end: '14:00'
-      - name: Dolphyin A Combinatorial Algorithm for Identifying 1-Dollo Phylogenies in Cancer
+      - name: "Dolphyin: A Combinatorial Algorithm for Identifying 1-Dollo Phylogenies in Cancer"
         time_start: '14:00'
         time_end: '14:30'
       - name: Improved Algorithms for Bi-partition Function Computation
