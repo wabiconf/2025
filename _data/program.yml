@@ -17,7 +17,7 @@ days:
       - name: Partitioned Multi-MUM finding for scalable pangenomics
         time_start: '10:30'
         time_end: '11:00'
-      - name: DiVerG Scalable Distance Index for Validation of Paired-End Alignments in Sequence Graphs
+      - name: "DiVerG: Scalable Distance Index for Validation of Paired-End Alignments in Sequence Graphs"
         time_start: '11:30'
         time_end: '12:00'
       - name: Haplotype-aware long-read error correction
