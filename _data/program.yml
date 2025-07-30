@@ -29,7 +29,7 @@ days:
       - name: Estimation of substitution and indel rates via k-mer statistics
         time_start: '14:00'
         time_end: '14:30'
-      - name: "Graph-Based Extension of Partial Atom Maps: Theoretical Uniqueness and Practical Algorithms"
+      - name: K-mer-based estimators of the substitution rate of repetitive sequences
         time_start: '14:30'
         time_end: '15:00'
       - name: Fast pseudoalignment queries on compressed colored de Bruijn graphs
@@ -71,9 +71,12 @@ days:
       - name: Improved Algorithms for Bi-partition Function Computation
         time_start: '14:30'
         time_end: '15:00'
+      - name: "Graph-Based Extension of Partial Atom Maps: Theoretical Uniqueness and Practical Algorithms"
+        time_start: '15:00'
+        time_end: '15:30'
       - name: "Business meeting (& posters redux)"
-        time_start: '15:30'
-        time_end: '16:30'
+        time_start: '16:00'
+        time_end: '17:30'
 - name: Friday
   abbr: Fri
   date: 2025-08-22
