@@ -41,7 +41,7 @@ days:
       - name: Poster session + reception
         time_start: '16:30'
         time_end: '18:00'
-- name: Thursdasy 
+- name: Thursday 
   abbr: Thu
   date: 2025-08-21
   rooms:
