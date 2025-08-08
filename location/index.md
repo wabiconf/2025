@@ -2,7 +2,7 @@
 layout: location
 ---
 
-WABI 2025 will take place in the Antonov auditorium in the Brendan Iribe Center for Computer Science and Engineering (8125 Paint Branch Drive, College Park, MD 20742). 
+WABI 2025 will take place in the Antonov auditorium in the [Brendan Iribe Center for Computer Science and Engineering](https://www.umiacs.umd.edu/about/directions) (8125 Paint Branch Drive, College Park, MD 20742). 
 
 ## Accommodations:
 
