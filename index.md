@@ -8,7 +8,7 @@ Welcome to the webpage for the WABI 2025 conference.
 
 #### <u> Where : </u>
 WABI 2025 will be held at the University of Maryland, in College Park, MD 
-
+For directions to the Brendan Iribe Center, where the confrence will be held, see [here](https://wabiconf.github.io/2025/rooms/room-a/).
 <br>
 
 #### <u> When: </u>
