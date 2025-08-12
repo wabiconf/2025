@@ -95,12 +95,14 @@ conference:
     links:
       - name: Program Committee
         relative_url: /program_committee/
-      - name: Call for papers
+      - name: Call for Papers
         relative_url: /call_for_papers/
       - name: Program
         relative_url: /program/
       - name: Talks
         relative_url: /talks/
+      - name: Posters
+        relative_url: /posters/
       #- name: Speakers
       #  relative_url: /speakers/
       - name: Location

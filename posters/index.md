@@ -4,7 +4,9 @@ layout: default
 
 ## WABI 2025 Poster presentations
 
-Poster presenters, please place your posters on the board marked by the number lister here for your poster.
+Poster presenters, please place your posters on the board marked by the number listed here for your poster.
+
+Make the posters at most 4 ft wide and 3 ft high.
 
 <table><thead>
 <tr><th>Poster number</th><th>Authors</th><th>Title</th></tr>

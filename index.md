@@ -32,10 +32,9 @@ You can register for WABI 2025 [using this link](https://go.umd.edu/wabi25paymen
 
 ## Poster Abstract Submission
 
-You can submit your abstract to WABI via [EasyChair](https://easychair.org/conferences/?conf=wabi2025) untial July 20, 2025.
+You can submit your abstract to WABI via [EasyChair](https://easychair.org/conferences/?conf=wabi2025) until July 20, 2025.
 
-Poster preparation: make posters at most 4 ft wide and 3 ft high
-
+[List of poster presentations](https://wabiconf.github.io/2025/posters/)
 
 ## Important Dates
 
