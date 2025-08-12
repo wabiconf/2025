@@ -43,7 +43,7 @@ You can submit your abstract to WABI via [EasyChair](https://easychair.org/confe
   * Full paper deadline: May 15, 2025 (AoE)
 * Author notifications: June 16, 2025
 * Camera ready versions of accepted papers due: June 22, 2025
-* <strong>Poster submission deadline: July 20, 2025</strong>
+* Poster submission deadline: July 20, 2025
 * Early registration deadline: July 20, 2025
 * Conference: August 20 --- August 22
 
