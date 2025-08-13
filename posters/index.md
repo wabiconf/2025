@@ -8,7 +8,7 @@ Poster presenters, please place your posters on the board marked by the number l
 
 Make the posters at most 4 ft wide and 3 ft high.
 
-<table><thead>
+<table class="table"><thead>
 <tr><th>Poster number</th><th>Authors</th><th>Title</th></tr>
 </thead><tbody>
 <tr><td>1</td><td>Rossie S. Luo, Ellen E. Vaughan, Justin R. Clark, Anthony W. Maresso, Michael G. Nute and Todd J. Treangen</td><td>Strainify: Strain-Level Abundance Estimation for Short-read Metagenomics</td></tr>
